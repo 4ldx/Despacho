@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUREUS & CO. | Firma Legal & Consultoría Fiscal B2B</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            exec: {
+              obsidian: '#0A0D10',
+              surface: '#12171E',
+              card: '#1A212B',
+              border: '#283240',
+              gold: '#C5A059',
+              goldHover: '#D4AF37',
+              text: '#E2E8F0',
+              muted: '#8A99AD',
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            serif: ['Cinzel', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-exec-obsidian text-exec-text font-sans antialiased overflow-x-hidden selection:bg-exec-gold selection:text-exec-obsidian">
+
+  <!-- Top Confidentiality Bar -->
+  <div class="bg-[#050709] text-exec-muted text-xs py-2 px-6 flex justify-between items-center border-b border-exec-border/40">
+    <div class="flex items-center gap-2">
+      <i class="ph-bold ph-shield-check text-exec-gold"></i>
+      <span>Aviso de Confidencialidad & Secreto Profesional Garantizado bajo Contrato</span>
+    </div>
+    <div class="hidden md:flex items-center gap-6 text-xs text-exec-muted">
+      <span><i class="ph-bold ph-briefcase mr-1"></i> Litigio Corporativo & Estrategia Fiscal SAT</span>
+      <a href="https://api.whatsapp.com/send?phone=528611265737&text=Hola,%20requiero%20una%20consulta%20legal/fiscal%20urgente%20para%20mi%20empresa." target="_blank" class="hover:text-exec-gold transition-colors">Línea Directa de Socios ↗</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-exec-obsidian/90 backdrop-blur-md border-b border-exec-border/50 transition-all">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-sm bg-exec-gold flex items-center justify-center text-exec-obsidian text-xl font-serif font-black shadow-md">
+          A
+        </div>
+        <div>
+          <span class="font-serif font-extrabold text-2xl tracking-widest text-white block leading-none">AUREUS & CO.</span>
+          <span class="text-[9px] uppercase tracking-[0.25em] text-exec-gold font-bold">Firma Legal & Consultoría</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-xs font-bold uppercase tracking-wider text-exec-muted">
+        <a href="#practices" class="hover:text-exec-gold transition-colors">Áreas de Práctica</a>
+        <a href="#fee-calculator" class="hover:text-exec-gold transition-colors flex items-center gap-1.5">
+          <i class="ph-bold ph-calculator text-exec-gold"></i> Cotizador de Iguala
+        </a>
+        <a href="#diagnostic" class="hover:text-exec-gold transition-colors">Diagnóstico Fiscal</a>
+      </nav>
+
+      <a href="#fee-calculator" class="bg-exec-gold hover:bg-exec-goldHover text-exec-obsidian px-5 py-2.5 rounded-sm text-xs font-extrabold tracking-wider uppercase transition-all shadow-md flex items-center gap-2">
+        <i class="ph-bold ph-calendar-check"></i> Agendar Consulta
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative min-h-[85vh] flex items-center py-20 px-6 bg-gradient-to-b from-exec-surface via-exec-obsidian to-exec-obsidian border-b border-exec-border/40">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-sm bg-exec-gold/10 text-exec-gold text-xs font-extrabold uppercase tracking-widest border border-exec-gold/30">
+          <i class="ph-bold ph-scales"></i> Rigor Jurídico & Estrategia Patrimonial B2B
+        </span>
+        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-white">
+          Protección patrimonial & Blindaje <span class="text-exec-gold italic">Fiscal Corporativo</span>
+        </h1>
+        <p class="text-exec-muted text-base sm:text-lg max-w-2xl leading-relaxed font-light">
+          Defendemos y optimizamos la estructura legal y contable de empresas, accionistas y corporativos. Soluciones de alto impacto ante controversias fiscales, mercantil y de derecho corporativo.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+          <a href="#fee-calculator" class="bg-exec-gold hover:bg-exec-goldHover text-exec-obsidian px-7 py-3.5 rounded-sm text-xs font-extrabold tracking-widest uppercase transition-all shadow-lg flex items-center gap-2">
+            <i class="ph-bold ph-coins"></i> Cotizar Iguala Mensual
+          </a>
+          <a href="#diagnostic" class="bg-exec-card hover:bg-exec-border text-white border border-exec-border px-7 py-3.5 rounded-sm text-xs font-bold tracking-wider uppercase transition-all">
+            Evaluación de Riesgo SAT ↗
+          </a>
+        </div>
+      </div>
+      <div class="lg:col-span-5 relative">
+        <div class="relative rounded-sm overflow-hidden shadow-2xl border border-exec-border">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=85" alt="Despacho corporativo Aureus" class="w-full h-[480px] object-cover filter contrast-105">
+          <div class="absolute inset-0 bg-gradient-to-t from-exec-obsidian via-exec-obsidian/40 to-transparent"></div>
+          <div class="absolute bottom-6 left-6 right-6 p-6 rounded-sm bg-exec-surface/90 backdrop-blur-md border border-exec-border">
+            <div class="flex items-center justify-between">
+              <div>
+                <span class="text-[10px] uppercase tracking-widest text-exec-gold font-extrabold block">Estándar Gubernamental</span>
+                <h4 class="font-serif font-bold text-lg text-white">99.4% de Litigios Favorables</h4>
+              </div>
+              <span class="text-xs font-extrabold bg-exec-gold/20 text-exec-gold border border-exec-gold/40 px-3 py-1">Socio Senior</span>
+            </div>
+            <p class="text-xs text-exec-muted mt-2 font-light">Representación integral ante tribunales federales, dependencias tributarias y auditorías especiales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fee Calculator / Equalizer -->
+  <section id="fee-calculator" class="py-20 px-6 bg-exec-surface border-y border-exec-border/40">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-exec-gold font-bold text-xs uppercase tracking-widest">Transparencia Presupuestaria</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-2 text-white">Simulador de Igualas & Retainer Legal</h2>
+        <p class="text-exec-muted text-sm sm:text-base mt-2 font-light">Configure el nivel de cobertura legal o fiscal que su empresa requiere para obtener un estimado de iguala corporativa.</p>
+      </div>
+
+      <div class="bg-exec-card p-6 sm:p-10 rounded-sm border border-exec-border max-w-5xl mx-auto shadow-2xl">
+        <div class="grid lg:grid-cols-2 gap-8">
+          <!-- Controls -->
+          <div class="space-y-6">
+            <div>
+              <label class="block text-xs font-extrabold uppercase tracking-widest text-exec-gold mb-3">1. Modalidad de Servicio:</label>
+              <select id="fee-service" onchange="calculateFee()" class="w-full bg-exec-surface border border-exec-border rounded-sm px-4 py-3 text-white text-sm focus:outline-none focus:border-exec-gold">
+                <option value="15000">Iguala Contable & Estrategia Fiscal SAT</option>
+                <option value="22000">Blindaje Legal Corporativo & Mantenimiento Sociedades</option>
+                <option value="35000">Defensa Litigio Mercantil & Fiscal Integral</option>
+                <option value="45000">Auditoría Patrimonial & Compliance Holding</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-extrabold uppercase tracking-widest text-exec-gold mb-3">2. Tamaño de la Empresa / Facturación Anual:</label>
+              <div class="grid grid-cols-3 gap-3">
+                <button onclick="setCompanySize(1, this)" class="size-btn active p-3 border border-exec-gold bg-exec-gold/10 text-white text-center rounded-sm transition-all">
+                  <span class="block font-bold text-xs">Pyme / Startup</span>
+                  <span class="text-[10px] text-exec-muted">Hasta $10M MXN</span>
+                </button>
+                <button onclick="setCompanySize(1.4, this)" class="size-btn p-3 border border-exec-border hover:border-exec-gold/50 text-white text-center rounded-sm transition-all">
+                  <span class="block font-bold text-xs">Empresa Mediana</span>
+                  <span class="text-[10px] text-exec-muted">$10M - $50M MXN</span>
+                </button>
+                <button onclick="setCompanySize(1.9, this)" class="size-btn p-3 border border-exec-border hover:border-exec-gold/50 text-white text-center rounded-sm transition-all">
+                  <span class="block font-bold text-xs">Corporativo</span>
+                  <span class="text-[10px] text-exec-muted">+ $50M MXN</span>
+                </button>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-extrabold uppercase tracking-widest text-exec-gold mb-3">3. Módulos Adicionales Requeridos:</label>
+              <div class="space-y-2">
+                <label class="flex items-center gap-3 bg-exec-surface p-3 rounded-sm border border-exec-border text-xs cursor-pointer">
+                  <input type="checkbox" id="mod-audit" onchange="calculateFee()" class="accent-exec-gold">
+                  <span>Revisión de Nómina & Auditoría IMSS / INFONAVIT (+ $5,000 MXN/mes)</span>
+                </label>
+                <label class="flex items-center gap-3 bg-exec-surface p-3 rounded-sm border border-exec-border text-xs cursor-pointer">
+                  <input type="checkbox" id="mod-trade" onchange="calculateFee()" class="accent-exec-gold">
+                  <span>Marcas, Patentes & Propiedad Intelectual (+ $3,500 MXN/mes)</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Summary Display -->
+          <div class="bg-exec-obsidian p-6 rounded-sm border border-exec-border flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] uppercase tracking-widest text-exec-gold font-extrabold block mb-1">Propuesta Financiera Estimada</span>
+              <h3 class="font-serif text-2xl font-bold text-white" id="fee-title">Iguala Contable & Estrategia Fiscal</h3>
+              <p class="text-xs text-exec-muted mt-2 leading-relaxed font-light">Incluye asignación de Contador Senior, declaración de impuestos federales, defensa preventiva antilavado (PLD) y atención a requerimientos tributarios.</p>
+
+              <div class="mt-8 space-y-3 border-t border-exec-border/50 pt-4 text-xs">
+                <div class="flex justify-between text-exec-muted">
+                  <span>Base de Honorarios:</span>
+                  <span id="summary-base" class="text-white font-bold">$15,000 MXN</span>
+                </div>
+                <div class="flex justify-between text-exec-muted">
+                  <span>Factor de Escala Corporativa:</span>
+                  <span id="summary-scale" class="text-white font-bold">1.0x</span>
+                </div>
+                <div class="flex justify-between text-exec-muted">
+                  <span>Atención Preferencial a Domicilio:</span>
+                  <span class="text-exec-gold font-bold">Incluida</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-6 border-t border-exec-border flex flex-col sm:flex-row justify-between items-center gap-4 mt-6">
+              <div>
+                <span class="text-[10px] text-exec-muted uppercase block">Iguala Mensual Estimada</span>
+                <span class="font-serif text-3xl font-extrabold text-exec-gold" id="fee-total">$15,000 MXN</span>
+              </div>
+              <button onclick="sendFeeQuote()" class="w-full sm:w-auto bg-exec-gold hover:bg-exec-goldHover text-exec-obsidian px-6 py-3.5 rounded-sm font-extrabold text-xs uppercase tracking-widest transition-all flex items-center justify-center gap-2">
+                <i class="ph-bold ph-paper-plane-tilt"></i> Formalizar Propuesta
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Practices Section -->
+  <section id="practices" class="py-20 px-6 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 border-b border-exec-border/50 pb-6">
+      <div>
+        <span class="text-exec-gold font-bold text-xs uppercase tracking-widest">Especialidades Corporativas</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold mt-1 text-white">Áreas de Especialización</h2>
+      </div>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-exec-card p-8 rounded-sm border border-exec-border hover:border-exec-gold/50 transition-all group">
+        <div class="w-12 h-12 bg-exec-gold/10 text-exec-gold flex items-center justify-center text-2xl mb-6 rounded-sm group-hover:bg-exec-gold group-hover:text-exec-obsidian transition-colors">
+          <i class="ph-bold ph-scales"></i>
+        </div>
+        <h3 class="font-serif font-bold text-xl text-white mb-3">Litigo & Defensa Fiscal SAT</h3>
+        <p class="text-exec-muted text-xs leading-relaxed font-light mb-4">Impugnación de créditos fiscales, cancelación de sellos digitales (CSD), juicios de nulidad ante el TFJA y amparo indirecto.</p>
+        <button onclick="openModal('sat')" class="text-xs font-bold text-exec-gold uppercase tracking-wider flex items-center gap-1">Ver Protocolo ↗</button>
+      </div>
+
+      <div class="bg-exec-card p-8 rounded-sm border border-exec-border hover:border-exec-gold/50 transition-all group">
+        <div class="w-12 h-12 bg-exec-gold/10 text-exec-gold flex items-center justify-center text-2xl mb-6 rounded-sm group-hover:bg-exec-gold group-hover:text-exec-obsidian transition-colors">
+          <i class="ph-bold ph-buildings"></i>
+        </div>
+        <h3 class="font-serif font-bold text-xl text-white mb-3">Derecho Corporativo & M&A</h3>
+        <p class="text-exec-muted text-xs leading-relaxed font-light mb-4">Estructuración de fusiones, adquisiciones, asambleas de accionistas, convenios de confidencialidad y contratos mercantiles complejos.</p>
+        <button onclick="openModal('corp')" class="text-xs font-bold text-exec-gold uppercase tracking-wider flex items-center gap-1">Ver Protocolo ↗</button>
+      </div>
+
+      <div class="bg-exec-card p-8 rounded-sm border border-exec-border hover:border-exec-gold/50 transition-all group">
+        <div class="w-12 h-12 bg-exec-gold/10 text-exec-gold flex items-center justify-center text-2xl mb-6 rounded-sm group-hover:bg-exec-gold group-hover:text-exec-obsidian transition-colors">
+          <i class="ph-bold ph-chart-line-up"></i>
+        </div>
+        <h3 class="font-serif font-bold text-xl text-white mb-3">Auditoría & Contabilidad B2B</h3>
+        <p class="text-exec-muted text-xs leading-relaxed font-light mb-4">Dictámenes fiscales, contabilidad electrónica en tiempo real, optimización de deducciones e interpretación de estados financieros.</p>
+        <button onclick="openModal('audit')" class="text-xs font-bold text-exec-gold uppercase tracking-wider flex items-center gap-1">Ver Protocolo ↗</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Inspector -->
+  <div id="exec-modal" class="fixed inset-0 bg-black/85 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-exec-card rounded-sm max-w-xl w-full p-8 relative shadow-2xl border border-exec-border">
+      <button onclick="closeModal()" class="absolute top-4 right-4 text-exec-muted hover:text-white text-xl">
+        <i class="ph-bold ph-x"></i>
+      </button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-exec-obsidian text-white border-t border-exec-border/50 py-12 px-6 text-center space-y-4">
+    <h3 class="font-serif text-2xl font-bold tracking-widest">AUREUS & CO.</h3>
+    <p class="text-xs text-exec-muted max-w-md mx-auto font-light">Abogados Consultores & Estrategas Fiscales. Ciudad de México • Monterrey • Guadalajara.</p>
+    <div class="pt-4 border-t border-exec-border/30 text-[11px] text-exec-muted/60">
+      Desarrollado bajo el estándar <strong>WaaS Completed</strong> por <strong>Black Gold Digital</strong>.
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script>
+    let currentCompanyFactor = 1;
+
+    function setCompanySize(factor, btnElement) {
+      currentCompanyFactor = factor;
+      document.querySelectorAll('.size-btn').forEach(b => {
+        b.classList.remove('border-exec-gold', 'bg-exec-gold/10');
+        b.classList.add('border-exec-border');
+      });
+      btnElement.classList.add('border-exec-gold', 'bg-exec-gold/10');
+      btnElement.classList.remove('border-exec-border');
+      calculateFee();
+    }
+
+    function calculateFee() {
+      const baseFee = parseFloat(document.getElementById('fee-service').value);
+      const modAudit = document.getElementById('mod-audit').checked ? 5000 : 0;
+      const modTrade = document.getElementById('mod-trade').checked ? 3500 : 0;
+
+      const total = (baseFee * currentCompanyFactor) + modAudit + modTrade;
+
+      document.getElementById('summary-base').innerText = `$${baseFee.toLocaleString()} MXN`;
+      document.getElementById('summary-scale').innerText = `${currentCompanyFactor}x`;
+      document.getElementById('fee-total').innerText = `$${Math.round(total).toLocaleString()} MXN`;
+
+      const select = document.getElementById('fee-service');
+      document.getElementById('fee-title').innerText = select.options[select.selectedIndex].text;
+    }
+
+    function sendFeeQuote() {
+      const total = document.getElementById('fee-total').innerText;
+      const title = document.getElementById('fee-title').innerText;
+      const msg = `Hola Aureus %26 Co., me interesa solicitar una propuesta formal para la iguala corporativa: ${title}. Estimado mensual simulado: ${total}`;
+      window.open(`https://api.whatsapp.com/send?phone=528611265737&text=${msg}`, '_blank');
+    }
+
+    function openModal(type) {
+      const modal = document.getElementById('exec-modal');
+      const body = document.getElementById('modal-body');
+
+      let content = '';
+      if(type === 'sat') {
+        content = `
+          <span class="text-exec-gold font-bold text-xs uppercase tracking-widest block mb-1">Litigio Especializado</span>
+          <h3 class="font-serif text-2xl font-bold text-white mb-3">Defensa Fiscal ante el SAT</h3>
+          <p class="text-xs text-exec-muted leading-relaxed font-light mb-4">Implementamos juicios de nulidad e interposición de recursos de revocación para frenar congelamiento de cuentas bancarias y levantamiento de embargos ejecutivos en menos de 72 horas hábiles.</p>
+          <div class="bg-exec-surface p-4 border border-exec-border rounded-sm text-xs space-y-2 mb-6">
+            <div class="flex justify-between"><span class="text-exec-muted">Efectividad de Amparos:</span><span class="text-exec-gold font-bold">98.8%</span></div>
+            <div class="flex justify-between"><span class="text-exec-muted">Tiempo Medio de Desbloqueo:</span><span class="text-white font-bold">3 a 5 Días</span></div>
+          </div>
+        `;
+      } else if(type === 'corp') {
+        content = `
+          <span class="text-exec-gold font-bold text-xs uppercase tracking-widest block mb-1">Derecho Societario</span>
+          <h3 class="font-serif text-2xl font-bold text-white mb-3">Gobernanza Corporativa & M&A</h3>
+          <p class="text-xs text-exec-muted leading-relaxed font-light mb-4">Diseño de libros de actas de asamblea, acuerdos de accionistas (SHA), reestructuraciones patrimoniales y auditorías Due Diligence para blindar la inversión de los socios.</p>
+        `;
+      } else {
+        content = `
+          <span class="text-exec-gold font-bold text-xs uppercase tracking-widest block mb-1">Estrategia Contable</span>
+          <h3 class="font-serif text-2xl font-bold text-white mb-3">Auditoría & Declaración Fiscal B2B</h3>
+          <p class="text-xs text-exec-muted leading-relaxed font-light mb-4">Contabilidad electrónica bajo normatividad NIF, cálculo de impuestos federales/estatales y devoluciones de saldo a favor de IVA ante la tesorería.</p>
+        `;
+      }
+
+      content += `<button onclick="closeModal()" class="w-full bg-exec-gold text-exec-obsidian py-3 font-bold text-xs uppercase tracking-wider">Cerrar Inspector</button>`;
+      body.innerHTML = content;
+      modal.classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('exec-modal').classList.add('hidden');
+    }
+
+    window.onload = function() {
+      calculateFee();
+    };
+  </script>
+</body>
+</html>
